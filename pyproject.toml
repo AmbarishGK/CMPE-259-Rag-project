@@ -1,0 +1,19 @@
+[project]
+name = "rag-app"
+version = "0.1.0"
+description = "Single-file PDF/Table RAG server using FastAPI + Chroma + Ollama"
+readme = ""
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pdfplumber",
+    "langchain",
+    "langchain-community",
+    "langchain-text-splitters",
+    "chromadb",
+    "langchain-core>=1.1.1",
+    "streamlit>=1.52.1",
+    "requests>=2.32.5",
+]
